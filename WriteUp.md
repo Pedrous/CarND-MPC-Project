@@ -19,10 +19,10 @@ The update equations are following:
 
 - x[t]    current x location
 - y[t]    current y location
-- psi[t]  current angle of the car
+- psi[t]  current angle of the car tires
 - v[t]    current speed to x-direction
 - cte[t]  cross track error
-- epsi[t] error of the cars angle to the reference trajectory
+- epsi[t] error of the car tire angle to the reference trajectory
 - f(x[t]) current y reference location calculated from the trajectory
 - Lf      Distance from the front of the vehcile to its center of gravity
 - psides  prefered car angle calculated for the trajectory
