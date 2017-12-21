@@ -17,15 +17,15 @@ The update equations are following:
 * cte[t+1] = f(x[t]) - y[t] + v[t] * sin(epsi[t]) * dt
 * epsi[t+1] = psi[t] - psides[t] + v[t] * delta[t] / Lf * dt
 
-x[t]    current x location
-y[t]    current y location
-psi[t]  current angle of the car
-v[t]    current speed to x-direction
-cte[t]  cross track error
-epsi[t] error of the cars angle to the reference trajectory
-f(x[t]) current y reference location calculated from the trajectory
-Lf      Distance from the front of the vehcile to its center of gravity
-psides  prefered car angle calculated for the trajectory
+- x[t]    current x location
+- y[t]    current y location
+- psi[t]  current angle of the car
+- v[t]    current speed to x-direction
+- cte[t]  cross track error
+- epsi[t] error of the cars angle to the reference trajectory
+- f(x[t]) current y reference location calculated from the trajectory
+- Lf      Distance from the front of the vehcile to its center of gravity
+- psides  prefered car angle calculated for the trajectory
 
 
 ##### Timestep (dt) and number of steps (N)
